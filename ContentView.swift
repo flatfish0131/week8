@@ -43,7 +43,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $showSheet, content: {
-            Text("成功登入 歡迎 \(userName)")
+            Text("成功登入 歡迎")
             Button(action: {
                 showSheet = false
             }, label: {
